@@ -1,14 +1,14 @@
 # Number Find Game
 
  * Computer and user, each keeps in mind a number which has 4 different digits.
- * First, the user guess a number and the computer returns the answer, then the computer guess a number and user returns the answer, an so on. Answer format must be '+a-b'.
+ * First, the user guesses a number and the computer returns the answer, then the computer guesses a number and user returns the answer, and so on. Answer format must be '+a-b'.
  * Whoever succeeds in finding the number first wins.
  
- * In the algorithm, computer creates a possible numbers pool and eliminate numbers from this pool according to each guesses and answers.
+ * In the algorithm, computer creates a possible numbers pool and eliminates numbers from this pool according to each guesses and answers.
  
- * User gives answer to computer guesses. Answer format must be "+a-b". When the user entered wrong format, all errors were handled.
+ * User gives answer to computer guesses. Format of the answer  must be "+a-b". When the user entered wrong format, all errors were handled.
  
- * Application takes user guess too. User guess must a number which has different 4-digit. When user entered wrong number format, all errors were handled.
+ * Application takes user guess too. User guess must a number which has different 4-digits. When user entered wrong number format, all errors were handled.
 
 ## Getting Started
 

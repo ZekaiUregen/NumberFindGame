@@ -29,7 +29,7 @@ import net.miginfocom.swing.MigLayout;
 import util.GenericMethods;
 
 /*
- * Computer and user has kept in mind numbers which has 4 different digits.
+ * The computer and the user keep a 4-digit number(different digits) in their mind.
  * Both of them try to find each other secret number.
  * Whoever succeeds in finding the number first wins.
  * 
@@ -41,15 +41,15 @@ import util.GenericMethods;
  * User gives answer to computer guesses. Answer format must be "+a-b". When the user entered wrong format, all errors were handled.
  * Application takes user guess too. User guess must a number which has different 4-digit. When user entered wrong number format, all errors were handled.
  * 
- * Always the user start to guess firstly.
- * So, when the user success to answer of '+4-0', user waits computer next guess. 
+ * Always the user starts to guess firstly.
+ * So, when the user successes to answer of '+4-0', user waits computer next guess. 
  * If the computer can't find the number in this situation, user wins. Otherwise, the game ends in a draw.
- * When the computer success to answer of '+4-0', computer wins. 
+ * When the computer successes to answer of '+4-0', computer wins. 
  *  
  * getPossibleNumberPool() method creates this pool.
  * eliminateNumbersForTheAnswerFromPool(String guessNumber,String answer) method eliminates numbers
  * 
- * Some generic methods is used from util.GenericMethods object.
+ * Some generic methods are used from util.GenericMethods object.
  * 
  * 
  * @author Zekai Uregen
