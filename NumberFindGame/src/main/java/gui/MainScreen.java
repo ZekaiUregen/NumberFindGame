@@ -248,7 +248,7 @@ public class MainScreen extends JFrame {
     public String getNewGuess() {
     	//If the pool is empty, this means that user gave a wrong answer to a computer guess. 
 		if(possibleNumberPool != null && possibleNumberPool.size() == 0) {
-			if(JOptionPane.showConfirmDialog(getContentPane(),"There is an error in your answers to my guess.Please check each of them!. Do you want play again?.","ERROR!",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){	
+			if(JOptionPane.showConfirmDialog(getContentPane(),"There is an error in your answers to my guess.Please check each of them!. Computer Secret Number:" + computerSecretNumber + " Do you want play again?.","ERROR!",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){	
 				possibleNumberPool = null;
 				clearAll();
 			}
@@ -323,7 +323,7 @@ public class MainScreen extends JFrame {
 		if("+4-0".equals(answerOfUserLastGuess) && "+4-0".equals(answerOfComputerLastGuess))
 			message = "The game ended in a draw. Do you want play again?";
 		else if(!"+4-0".equals(answerOfUserLastGuess) && "+4-0".equals(answerOfComputerLastGuess))
-			message = "COMPUTER WIN THE GAME :):).Do you want play again?.";
+			message = "COMPUTER WIN THE GAME :):). Computer secret number:" + computerSecretNumber + ". Do you want play again?.";
 		else if("+4-0".equals(answerOfUserLastGuess) && !"+4-0".equals(answerOfComputerLastGuess))
 			message = "CONGRATULATIONS! YOU WIN THE GAME :):).Do you want play again?.";
 		System.out.println(answerOfUserLastGuess + " "  + answerOfComputerLastGuess + " " + computerSecretNumber);

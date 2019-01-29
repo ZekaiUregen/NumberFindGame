@@ -27,6 +27,7 @@ public class GenericMethods {
 	}
 	
 	
+	
 	public String numberGenerator() {
 	    Random randy = new Random();
 	    StringBuffer number = new StringBuffer("XXXX");
